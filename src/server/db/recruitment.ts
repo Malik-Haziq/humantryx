@@ -39,7 +39,7 @@ export const jobPostings = pgTable("job_postings", {
   organizationId: text("organization_id")
     .notNull()
     .references(() => organizations.id, { onDelete: "cascade" }),
-  createdByEmployeeId: text("created_by_employee_id")
+  createdByEmployeeId: uuid("created_by_employee_id")
     .notNull()
     .references(() => employees.id, { onDelete: "cascade" }),
 
