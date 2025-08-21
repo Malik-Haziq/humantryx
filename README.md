@@ -1,10 +1,10 @@
 ![Humantryx Logo](https://github.com/adarshaacharya/humantryx/blob/main/docs/banner.png?raw=true)
 
-# 🏢 Zenora • AI-Powered HRMS
+# 🏢 Humantryx • AI-Powered HRMS
 
-[live url](https://humantryx.vercel.app) — [github](https://github.com/Malik-Haziq/zenoraAI)
+[live url](https://humantryx.vercel.app) — [github](https://github.com/Malik-Haziq/humantryx)
 
-> **ZenoraAI** is an AI-powered Human Resource Management System built with Next.js and modern technologies. It streamlines HR processes including employee management, attendance tracking, leave management, and payroll processing, all enhanced with intelligent automation.
+> **Humantryx** is an AI-powered Human Resource Management System built with Next.js and modern technologies. It streamlines HR processes including employee management, attendance tracking, leave management, and payroll processing, all enhanced with intelligent automation.
 
 ## Demo
 
@@ -81,8 +81,8 @@
 2. Run:
 
    ```bash
-   git clone https://github.com/your-org/ZenoraAI.git
-   cd ZenoraAI
+   git clone https://github.com/your-org/humantryx.git
+   cd humantryx
    pnpm install
    cp .env.example .env
    ```
@@ -137,7 +137,7 @@ vercel --prod
 
 ```bash
 # Build Docker image
-docker build -t ZenoraAI .
+docker build -t humantryx .
 
 # Run with Docker Compose
 docker-compose up -d
@@ -149,7 +149,7 @@ We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) 
 
 ## License
 
-MIT © 2025 ZenoraAI Team
+MIT © 2025 humantryx Team
 
 ---
 
