@@ -19,7 +19,7 @@ export function Navigation() {
     { name: "Benefits", href: "#benefits", icon: BarChart3 },
     {
       name: "GitHub",
-      href: "https://github.com/adarshaacharya/humantryx",
+      href: "https://github.com/Malik-Haziq/humantryx/",
       icon: Github,
       external: true,
     },
